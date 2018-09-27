@@ -4,13 +4,7 @@ var Schema = mongoose.Schema;
 
 var GenreSchema = new Schema(
   {
-    
 	name: {type: String, required: true, min: 3, max: 100},
-	
-	//book: { type: Schema.Types.ObjectId, ref: 'Book', required: true }, //reference to the associated book
-    //imprint: {type: String, required: true},
-    //status: {type: String, required: true, enum: ['Available', 'Maintenance', 'Loaned', 'Reserved'], default: 'Maintenance'},
-    //due_back: {type: Date, default: Date.now}
   }
 );
 
